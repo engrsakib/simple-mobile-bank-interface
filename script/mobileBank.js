@@ -17,5 +17,3 @@ logInBtn.addEventListener('click', function(e){
     if(phoneNumber === '01992547202' && pinNumber === '0123') window.location.href = './pages/home.html';
     else alert("wrong password or phone please trya again");
 })
-
-//home page
