@@ -9,11 +9,13 @@ const logInPhone = document.getElementById('login-phone');
 const logInPin = document.getElementById('login-pin');
 
 logInBtn.addEventListener('click', function(e){
-    e.preventDefault();  // for stop reload page after clicking
+     e.preventDefault();  // for stop reload page after clicking
     // get phone number
     const phoneNumber =  logInPhone.value;
     const pinNumber = logInPin.value;
 
-    if(phoneNumber === '01992547202' && pinNumber === '0123') console.log("you are log in");
+    if(phoneNumber === '01992547202' && pinNumber === '0123') window.location.href = './pages/home.html';
     else alert("wrong password or phone please trya again");
 })
+
+//home page
