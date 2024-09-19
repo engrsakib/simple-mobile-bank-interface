@@ -1,3 +1,7 @@
+// daisy UI
+const htmlTag = document.getElementsByTagName('html')[0];
+htmlTag.setAttribute('data-theme', 'acid');
+
 const addAmount = document.getElementById("add-amount");
 const addPin = document.getElementById("add-pin");
 const addBtn = document.getElementById("button-add");
